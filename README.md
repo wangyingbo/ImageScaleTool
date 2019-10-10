@@ -31,3 +31,7 @@
 - 当约束最大`size`时，`width`和`height`都固定，`imageView`会根据image的比例算出最适合的size；当`imageView`原始的`size`小于`maxSize`时，最大`maxSize`取`imageView`的`size`；
 
 		fitSize = [self.imageView yb_fitImage:[UIImage imageNamed:@"v_pic"] maxSize:CGSizeMake(300, 200)];
+		
+
+---
+
