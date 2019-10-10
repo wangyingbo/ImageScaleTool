@@ -3,8 +3,8 @@ syntax: glob
 Thumbs.db
 flightcity.plist
 *.DS_Store
-FengbangB.xcworkspace/xcuserdata
-FengbangB.xcodeproj/xcuserdata
+*.xcworkspace/xcuserdata
+*.xcodeproj/xcuserdata
 Pods
 Podfile.lock
 Build
