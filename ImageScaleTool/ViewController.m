@@ -50,10 +50,10 @@ CGFloat kImageViewWH = 100.f;
 
 - (void)configData {
     NSArray *arr = @[
-                     YB_CREATE_ITEM(YBFunctionMaxWidth1, @"最大宽横图片"),
-                     YB_CREATE_ITEM(YBFunctionMaxWidth2, @"最大宽竖图片"),
-                     YB_CREATE_ITEM(YBFunctionMaxHeight1, @"最大高横图片"),
-                     YB_CREATE_ITEM(YBFunctionMaxHeight2, @"最大高竖图片"),
+                     YB_CREATE_ITEM(YBFunctionMaxWidth1, @"最大width-横图片"),
+                     YB_CREATE_ITEM(YBFunctionMaxWidth2, @"最大width-竖图片"),
+                     YB_CREATE_ITEM(YBFunctionMaxHeight1, @"最大height-横图片"),
+                     YB_CREATE_ITEM(YBFunctionMaxHeight2, @"最大height-竖图片"),
                      YB_CREATE_ITEM(YBFunctionMaxSize1, @"最大size横图片"),
                      YB_CREATE_ITEM(YBFunctionMaxSize2, @"最大size竖图片"),
                      ];
