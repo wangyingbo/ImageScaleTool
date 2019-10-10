@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D148D491234DDA1D00D9E933 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D148D490234DDA1D00D9E933 /* AppDelegate.m */; };
+		D148D494234DDA1D00D9E933 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D148D493234DDA1D00D9E933 /* ViewController.m */; };
+		D148D497234DDA1D00D9E933 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D148D495234DDA1D00D9E933 /* Main.storyboard */; };
+		D148D499234DDA1E00D9E933 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D148D498234DDA1E00D9E933 /* Assets.xcassets */; };
+		D148D49C234DDA1E00D9E933 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D148D49A234DDA1E00D9E933 /* LaunchScreen.storyboard */; };
+		D148D49F234DDA1E00D9E933 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D148D49E234DDA1E00D9E933 /* main.m */; };
+		D148D4A9234DDA1E00D9E933 /* ImageScaleToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D148D4A8234DDA1E00D9E933 /* ImageScaleToolTests.m */; };
+		D148D4B4234DDA1E00D9E933 /* ImageScaleToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D148D4B3234DDA1E00D9E933 /* ImageScaleToolUITests.m */; };
+		D148D4C3234DDA6D00D9E933 /* UIImageView+YBScale.m in Sources */ = {isa = PBXBuildFile; fileRef = D148D4C2234DDA6D00D9E933 /* UIImageView+YBScale.m */; };
+		D148D4C7234DEDAB00D9E933 /* YBItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D148D4C6234DEDAB00D9E933 /* YBItem.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D148D4A5234DDA1E00D9E933 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D148D484234DDA1D00D9E933 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D148D48B234DDA1D00D9E933;
+			remoteInfo = ImageScaleTool;
+		};
+		D148D4B0234DDA1E00D9E933 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D148D484234DDA1D00D9E933 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D148D48B234DDA1D00D9E933;
+			remoteInfo = ImageScaleTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D148D48C234DDA1D00D9E933 /* ImageScaleTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageScaleTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D148D48F234DDA1D00D9E933 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D148D490234DDA1D00D9E933 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D148D492234DDA1D00D9E933 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D148D493234DDA1D00D9E933 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D148D496234DDA1D00D9E933 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D148D498234DDA1E00D9E933 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D148D49B234DDA1E00D9E933 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D148D49D234DDA1E00D9E933 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D148D49E234DDA1E00D9E933 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D148D4A4234DDA1E00D9E933 /* ImageScaleToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageScaleToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D148D4A8234DDA1E00D9E933 /* ImageScaleToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageScaleToolTests.m; sourceTree = "<group>"; };
+		D148D4AA234DDA1E00D9E933 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D148D4AF234DDA1E00D9E933 /* ImageScaleToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageScaleToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D148D4B3234DDA1E00D9E933 /* ImageScaleToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageScaleToolUITests.m; sourceTree = "<group>"; };
+		D148D4B5234DDA1E00D9E933 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D148D4C1234DDA6D00D9E933 /* UIImageView+YBScale.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+YBScale.h"; sourceTree = "<group>"; };
+		D148D4C2234DDA6D00D9E933 /* UIImageView+YBScale.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+YBScale.m"; sourceTree = "<group>"; };
+		D148D4C5234DEDAB00D9E933 /* YBItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBItem.h; sourceTree = "<group>"; };
+		D148D4C6234DEDAB00D9E933 /* YBItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBItem.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D148D489234DDA1D00D9E933 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D148D4A1234DDA1E00D9E933 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D148D4AC234DDA1E00D9E933 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D148D483234DDA1D00D9E933 = {
+			isa = PBXGroup;
+			children = (
+				D148D48E234DDA1D00D9E933 /* ImageScaleTool */,
+				D148D4A7234DDA1E00D9E933 /* ImageScaleToolTests */,
+				D148D4B2234DDA1E00D9E933 /* ImageScaleToolUITests */,
+				D148D48D234DDA1D00D9E933 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D148D48D234DDA1D00D9E933 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D148D48C234DDA1D00D9E933 /* ImageScaleTool.app */,
+				D148D4A4234DDA1E00D9E933 /* ImageScaleToolTests.xctest */,
+				D148D4AF234DDA1E00D9E933 /* ImageScaleToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D148D48E234DDA1D00D9E933 /* ImageScaleTool */ = {
+			isa = PBXGroup;
+			children = (
+				D148D4C4234DEDAB00D9E933 /* YBItem */,
+				D148D48F234DDA1D00D9E933 /* AppDelegate.h */,
+				D148D490234DDA1D00D9E933 /* AppDelegate.m */,
+				D148D492234DDA1D00D9E933 /* ViewController.h */,
+				D148D493234DDA1D00D9E933 /* ViewController.m */,
+				D148D4C1234DDA6D00D9E933 /* UIImageView+YBScale.h */,
+				D148D4C2234DDA6D00D9E933 /* UIImageView+YBScale.m */,
+				D148D495234DDA1D00D9E933 /* Main.storyboard */,
+				D148D498234DDA1E00D9E933 /* Assets.xcassets */,
+				D148D49A234DDA1E00D9E933 /* LaunchScreen.storyboard */,
+				D148D49D234DDA1E00D9E933 /* Info.plist */,
+				D148D49E234DDA1E00D9E933 /* main.m */,
+			);
+			path = ImageScaleTool;
+			sourceTree = "<group>";
+		};
+		D148D4A7234DDA1E00D9E933 /* ImageScaleToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				D148D4A8234DDA1E00D9E933 /* ImageScaleToolTests.m */,
+				D148D4AA234DDA1E00D9E933 /* Info.plist */,
+			);
+			path = ImageScaleToolTests;
+			sourceTree = "<group>";
+		};
+		D148D4B2234DDA1E00D9E933 /* ImageScaleToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D148D4B3234DDA1E00D9E933 /* ImageScaleToolUITests.m */,
+				D148D4B5234DDA1E00D9E933 /* Info.plist */,
+			);
+			path = ImageScaleToolUITests;
+			sourceTree = "<group>";
+		};
+		D148D4C4234DEDAB00D9E933 /* YBItem */ = {
+			isa = PBXGroup;
+			children = (
+				D148D4C5234DEDAB00D9E933 /* YBItem.h */,
+				D148D4C6234DEDAB00D9E933 /* YBItem.m */,
+			);
+			path = YBItem;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D148D48B234DDA1D00D9E933 /* ImageScaleTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D148D4B8234DDA1E00D9E933 /* Build configuration list for PBXNativeTarget "ImageScaleTool" */;
+			buildPhases = (
+				D148D488234DDA1D00D9E933 /* Sources */,
+				D148D489234DDA1D00D9E933 /* Frameworks */,
+				D148D48A234DDA1D00D9E933 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageScaleTool;
+			productName = ImageScaleTool;
+			productReference = D148D48C234DDA1D00D9E933 /* ImageScaleTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D148D4A3234DDA1E00D9E933 /* ImageScaleToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D148D4BB234DDA1E00D9E933 /* Build configuration list for PBXNativeTarget "ImageScaleToolTests" */;
+			buildPhases = (
+				D148D4A0234DDA1E00D9E933 /* Sources */,
+				D148D4A1234DDA1E00D9E933 /* Frameworks */,
+				D148D4A2234DDA1E00D9E933 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D148D4A6234DDA1E00D9E933 /* PBXTargetDependency */,
+			);
+			name = ImageScaleToolTests;
+			productName = ImageScaleToolTests;
+			productReference = D148D4A4234DDA1E00D9E933 /* ImageScaleToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D148D4AE234DDA1E00D9E933 /* ImageScaleToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D148D4BE234DDA1E00D9E933 /* Build configuration list for PBXNativeTarget "ImageScaleToolUITests" */;
+			buildPhases = (
+				D148D4AB234DDA1E00D9E933 /* Sources */,
+				D148D4AC234DDA1E00D9E933 /* Frameworks */,
+				D148D4AD234DDA1E00D9E933 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D148D4B1234DDA1E00D9E933 /* PBXTargetDependency */,
+			);
+			name = ImageScaleToolUITests;
+			productName = ImageScaleToolUITests;
+			productReference = D148D4AF234DDA1E00D9E933 /* ImageScaleToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D148D484234DDA1D00D9E933 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "王颖博";
+				TargetAttributes = {
+					D148D48B234DDA1D00D9E933 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					D148D4A3234DDA1E00D9E933 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = D148D48B234DDA1D00D9E933;
+					};
+					D148D4AE234DDA1E00D9E933 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = D148D48B234DDA1D00D9E933;
+					};
+				};
+			};
+			buildConfigurationList = D148D487234DDA1D00D9E933 /* Build configuration list for PBXProject "ImageScaleTool" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D148D483234DDA1D00D9E933;
+			productRefGroup = D148D48D234DDA1D00D9E933 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D148D48B234DDA1D00D9E933 /* ImageScaleTool */,
+				D148D4A3234DDA1E00D9E933 /* ImageScaleToolTests */,
+				D148D4AE234DDA1E00D9E933 /* ImageScaleToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D148D48A234DDA1D00D9E933 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D148D49C234DDA1E00D9E933 /* LaunchScreen.storyboard in Resources */,
+				D148D499234DDA1E00D9E933 /* Assets.xcassets in Resources */,
+				D148D497234DDA1D00D9E933 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D148D4A2234DDA1E00D9E933 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D148D4AD234DDA1E00D9E933 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D148D488234DDA1D00D9E933 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D148D494234DDA1D00D9E933 /* ViewController.m in Sources */,
+				D148D49F234DDA1E00D9E933 /* main.m in Sources */,
+				D148D4C3234DDA6D00D9E933 /* UIImageView+YBScale.m in Sources */,
+				D148D491234DDA1D00D9E933 /* AppDelegate.m in Sources */,
+				D148D4C7234DEDAB00D9E933 /* YBItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D148D4A0234DDA1E00D9E933 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D148D4A9234DDA1E00D9E933 /* ImageScaleToolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D148D4AB234DDA1E00D9E933 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D148D4B4234DDA1E00D9E933 /* ImageScaleToolUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D148D4A6234DDA1E00D9E933 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D148D48B234DDA1D00D9E933 /* ImageScaleTool */;
+			targetProxy = D148D4A5234DDA1E00D9E933 /* PBXContainerItemProxy */;
+		};
+		D148D4B1234DDA1E00D9E933 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D148D48B234DDA1D00D9E933 /* ImageScaleTool */;
+			targetProxy = D148D4B0234DDA1E00D9E933 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D148D495234DDA1D00D9E933 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D148D496234DDA1D00D9E933 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D148D49A234DDA1E00D9E933 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D148D49B234DDA1E00D9E933 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D148D4B6234DDA1E00D9E933 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D148D4B7234DDA1E00D9E933 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D148D4B9234DDA1E00D9E933 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2T9CHG78WE;
+				INFOPLIST_FILE = ImageScaleTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = top.wangyingbo.www.ImageScaleTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D148D4BA234DDA1E00D9E933 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2T9CHG78WE;
+				INFOPLIST_FILE = ImageScaleTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = top.wangyingbo.www.ImageScaleTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D148D4BC234DDA1E00D9E933 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2T9CHG78WE;
+				INFOPLIST_FILE = ImageScaleToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = top.wangyingbo.www.ImageScaleToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageScaleTool.app/ImageScaleTool";
+			};
+			name = Debug;
+		};
+		D148D4BD234DDA1E00D9E933 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2T9CHG78WE;
+				INFOPLIST_FILE = ImageScaleToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = top.wangyingbo.www.ImageScaleToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageScaleTool.app/ImageScaleTool";
+			};
+			name = Release;
+		};
+		D148D4BF234DDA1E00D9E933 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2T9CHG78WE;
+				INFOPLIST_FILE = ImageScaleToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = top.wangyingbo.www.ImageScaleToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ImageScaleTool;
+			};
+			name = Debug;
+		};
+		D148D4C0234DDA1E00D9E933 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2T9CHG78WE;
+				INFOPLIST_FILE = ImageScaleToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = top.wangyingbo.www.ImageScaleToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ImageScaleTool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D148D487234DDA1D00D9E933 /* Build configuration list for PBXProject "ImageScaleTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D148D4B6234DDA1E00D9E933 /* Debug */,
+				D148D4B7234DDA1E00D9E933 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D148D4B8234DDA1E00D9E933 /* Build configuration list for PBXNativeTarget "ImageScaleTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D148D4B9234DDA1E00D9E933 /* Debug */,
+				D148D4BA234DDA1E00D9E933 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D148D4BB234DDA1E00D9E933 /* Build configuration list for PBXNativeTarget "ImageScaleToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D148D4BC234DDA1E00D9E933 /* Debug */,
+				D148D4BD234DDA1E00D9E933 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D148D4BE234DDA1E00D9E933 /* Build configuration list for PBXNativeTarget "ImageScaleToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D148D4BF234DDA1E00D9E933 /* Debug */,
+				D148D4C0234DDA1E00D9E933 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D148D484234DDA1D00D9E933 /* Project object */;
+}
